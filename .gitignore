@@ -1,0 +1,12 @@
+##This will be ignored
+#Frontend
+/frontend
+
+#Backend
+/server/node_modules
+/server/public
+/server/.env
+notes.html
+
+#
+.gitignore

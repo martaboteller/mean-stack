@@ -1,0 +1,29 @@
+###
+GET http://localhost:4000/api/employees
+
+
+###
+POST http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name":"Samantha",
+    "position":"Fullstack developer",
+    "office":"Chicago",
+    "salary":1600
+}
+
+###
+GET http://localhost:4000/api/employees/62e414693788dc8498557fce
+
+
+###
+DELETE http://localhost:4000/api/employees/62e414693788dc8498557fce
+
+###
+PUT http://localhost:4000/api/employees/62e4191fae931fa407ac9168
+Content-Type: application/json
+
+{
+    "salary":1700
+}
